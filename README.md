@@ -8,12 +8,12 @@ GitHub Pages legal pages for the Video Poster app.
 TikTok verification:
 
 ```text
-tiktok-developers-site-verification=YUYubEsten1gb34GZ5Vs5RGHn0yacgFL
+tiktok-developers-site-verification=9Z6fcqarawDubKXXuMikp9whR1iMTNF9
 ```
 
 The signature file is:
 
 ```text
-tiktokYUYubEsten1gb34GZ5Vs5RGHn0yacgFL.txt
+tiktok9Z6fcqarawDubKXXuMikp9whR1iMTNF9.txt
 ```
 posts tiktok vids for me
