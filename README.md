@@ -1,7 +1,8 @@
 # vido-poster
 
-GitHub Pages legal pages for the Video Poster app.
+GitHub Pages website and legal pages for the Video Poster app.
 
+- `index.html`
 - `terms.html`
 - `privacy.html`
 

@@ -3,27 +3,181 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Video Poster</title>
+  <title>Video Poster - Creator Video Automation</title>
+  <meta name="description" content="Video Poster helps creators generate short-form videos from their media folders, reusable templates, and scheduled publishing workflows.">
   <meta name="tiktok-developers-site-verification" content="9Z6fcqarawDubKXXuMikp9whR1iMTNF9">
   <style>
+    :root {
+      color-scheme: light;
+      --ink: #1f2933;
+      --muted: #5f6b76;
+      --line: #d8dee4;
+      --panel: #f7f8fa;
+      --accent: #176b5b;
+    }
+    * {
+      box-sizing: border-box;
+    }
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
       line-height: 1.6;
-      max-width: 820px;
-      margin: 40px auto;
-      padding: 0 20px;
-      color: #202124;
+      color: var(--ink);
+      background: #ffffff;
+    }
+    header {
+      border-bottom: 1px solid var(--line);
+      background: var(--panel);
+    }
+    nav, main, footer {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 0 22px;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 68px;
+      gap: 18px;
+    }
+    nav a {
+      color: var(--ink);
+      text-decoration: none;
+      margin-left: 18px;
+    }
+    .brand {
+      font-weight: 700;
+      font-size: 20px;
+      margin: 0;
+    }
+    .hero {
+      padding: 64px 22px 58px;
+    }
+    h1 {
+      font-size: 44px;
+      line-height: 1.1;
+      max-width: 760px;
+      margin: 0 0 18px;
+    }
+    .lead {
+      font-size: 19px;
+      color: var(--muted);
+      max-width: 760px;
+      margin: 0;
+    }
+    section {
+      padding: 34px 0;
+      border-top: 1px solid var(--line);
+    }
+    h2 {
+      font-size: 26px;
+      margin: 0 0 12px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 16px;
+      margin-top: 18px;
+    }
+    .item {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      padding: 18px;
+      border-radius: 8px;
+    }
+    .item h3 {
+      margin: 0 0 8px;
+      font-size: 18px;
+    }
+    .item p, li {
+      color: var(--muted);
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 10px 14px;
+      background: var(--accent);
+      color: #ffffff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    footer {
+      padding: 28px 22px 40px;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+    }
+    footer a {
+      color: var(--ink);
+      margin-right: 16px;
     }
   </style>
 </head>
 <body>
-  <h1>Video Poster</h1>
-  <p>Legal and verification pages for the Video Poster app.</p>
-  <p>tiktok-developers-site-verification=9Z6fcqarawDubKXXuMikp9whR1iMTNF9</p>
-  <ul>
-    <li><a href="terms.html">Terms of Service</a></li>
-    <li><a href="privacy.html">Privacy Policy</a></li>
-    <li><a href="tiktok9Z6fcqarawDubKXXuMikp9whR1iMTNF9.txt">TikTok verification file</a></li>
-  </ul>
+  <header>
+    <nav>
+      <p class="brand">Video Poster</p>
+      <div>
+        <a href="#features">Features</a>
+        <a href="#workflow">Workflow</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+    </nav>
+    <main class="hero">
+      <h1>Short-form video generation and publishing tools for creators.</h1>
+      <p class="lead">Video Poster helps creators organize media folders, build reusable text templates, generate vertical videos, schedule publishing, and connect posting workflows for their own TikTok accounts.</p>
+      <a class="cta" href="#workflow">See How It Works</a>
+    </main>
+  </header>
+
+  <main>
+    <section id="features">
+      <h2>Features</h2>
+      <div class="grid">
+        <div class="item">
+          <h3>Template-Based Videos</h3>
+          <p>Create reusable templates with intro text, clip text, custom line styling, fonts, colors, and duration controls.</p>
+        </div>
+        <div class="item">
+          <h3>Folder Media Library</h3>
+          <p>Scan creator-selected folders for shows, characters, intro clips, audio tracks, and reusable source footage.</p>
+        </div>
+        <div class="item">
+          <h3>Flexible Character Selection</h3>
+          <p>Use all characters from each show or create template-specific selections across multiple shows and characters.</p>
+        </div>
+        <div class="item">
+          <h3>Scheduling Workflow</h3>
+          <p>Configure a daily posting time and generate the next video from the creator's selected templates and media.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="workflow">
+      <h2>Workflow</h2>
+      <ol>
+        <li>The creator selects local folders for audio, clips, and rendered output.</li>
+        <li>The app scans show folders, character folders, and optional intro clips.</li>
+        <li>The creator builds templates with text overlays, styling, and clip durations.</li>
+        <li>The app renders vertical videos locally using the selected media and template rules.</li>
+        <li>When connected and authorized, generated videos can be prepared for publishing through TikTok's posting workflow.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Responsible Posting</h2>
+      <p>Creators are responsible for using media they own or are authorized to use. Video Poster is designed to publish only videos generated from creator-selected media and creator-configured settings.</p>
+      <p style="display:none">tiktok-developers-site-verification=9Z6fcqarawDubKXXuMikp9whR1iMTNF9</p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="terms.html">Terms of Service</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="tiktok9Z6fcqarawDubKXXuMikp9whR1iMTNF9.txt">TikTok Verification</a>
+    <p>&copy; 2026 Video Poster.</p>
+  </footer>
 </body>
 </html>
